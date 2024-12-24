@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+   tools:showIn = "navigation_view" >
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_ann"
+            android:icon="@drawable/announcemenet"
+            android:title="Announcements" />
+
+        <item
+            android:id="@+id/nav_issue"
+            android:icon="@drawable/issue"
+            android:title="Issues" />
+
+        <item
+            android:id="@+id/nav_lnf"
+            android:icon="@drawable/lostnfound"
+            android:title="Lost and Found" />
+
+        <item
+            android:id="@+id/nav_laundry"
+            android:icon="@drawable/laundry"
+            android:title="Laundry Manager" />
+
+        <item
+            android:id="@+id/nav_forms"
+            android:icon="@drawable/forms"
+            android:title="Forms for help" />
+
+    </group>
+
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+
+        </menu>
+
+    </item>
+
+</menu>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🚩 Issues"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🚰 Water supply: Water supply is inconsistent and unavailable at times."
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_margin="16dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔧 Maintenance: Ceiling Fans needs servicing in saroj Boys Hostel Mess."
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_margin="16dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🚰 Plumbing: Broken Toilet on 4th floor, needs repair."
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_margin="16dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💡 Electrical: Light bulb flickering in 2nd floor hallway , replacement needed."
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_margin="16dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🚪 Door: Washroom Doors broken on First floor, needs fixing."
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_margin="16dp"
+        android:background="@color/white"/>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report Issue"
+        android:layout_gravity="end|bottom"
+        android:padding="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#CC0000"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
